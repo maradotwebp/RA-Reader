@@ -25,8 +25,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="btn_save" alignment="1" max="32767" attributes="0"/>
           <Component id="sp_info" alignment="0" pref="456" max="32767" attributes="0"/>
-          <Component id="btn_indis" alignment="0" max="32767" attributes="0"/>
-          <Component id="btn_load" alignment="0" max="32767" attributes="0"/>
+          <Component id="btn_saveXml" alignment="0" max="32767" attributes="0"/>
+          <Component id="btn_loadXml" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -34,9 +34,9 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="sp_info" min="-2" pref="185" max="-2" attributes="0"/>
               <EmptySpace pref="44" max="32767" attributes="0"/>
-              <Component id="btn_load" min="-2" max="-2" attributes="0"/>
+              <Component id="btn_loadXml" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btn_indis" min="-2" max="-2" attributes="0"/>
+              <Component id="btn_saveXml" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="btn_save" min="-2" pref="35" max="-2" attributes="0"/>
           </Group>
@@ -73,20 +73,20 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_saveActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_indis">
+    <Component class="javax.swing.JButton" name="btn_saveXml">
       <Properties>
         <Property name="text" type="java.lang.String" value="save As XML"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_indisActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_saveXmlActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_load">
+    <Component class="javax.swing.JButton" name="btn_loadXml">
       <Properties>
         <Property name="text" type="java.lang.String" value="load As XML"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_loadActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_loadXmlActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

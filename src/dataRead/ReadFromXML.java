@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
  */
 public class ReadFromXML {
 
-    public InfoTable LoadXML(String filename) throws IOException, ParserConfigurationException, SAXException {
+    public InfoTable LoadXML(File f) throws IOException, ParserConfigurationException, SAXException {
         File inputFile = new File("src/infotable.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

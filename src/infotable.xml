@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <jTable>
-<NAME>Imidan 50 Spritzpulver</NAME>
-<ZU_BEGINN>1968-01-02</ZU_BEGINN>
-<ZU_ENDE>---</ZU_ENDE>
-<NEU>2009-09-29</NEU>
-<WIRKUNG>Insektizid</WIRKUNG>
-<ZUBEREITUNG>Wasserdispergierbares Pulver</ZUBEREITUNG>
-<WIRKSTOFF_GEH>Phosmet</WIRKSTOFF_GEH>
-<FIRMA>Gowan Comércio Internacional e Servicos, Ltda</FIRMA>
-<ADR>Rua Ivens, n°. 3-B  Edificio Dona Mécia, 6° Andar</ADR>
+<NAME>Teridox 500 EC</NAME>
+<ZU_BEGINN>1980-07-22</ZU_BEGINN>
+<ZU_ENDE>2026-11-30</ZU_ENDE>
+<NEU>---</NEU>
+<WIRKUNG>Herbizid</WIRKUNG>
+<ZUBEREITUNG>Emulgierbares Konzentrat (Emulsionskonzentrat)</ZUBEREITUNG>
+<WIRKSTOFF_GEH>Gew.-%: </WIRKSTOFF_GEH>
+<FIRMA>Syngenta Agro GmbH.</FIRMA>
+<ADR>Anton-Baumgartner-Straße 125/2/3/1</ADR>
 </jTable>

@@ -15,20 +15,12 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class Pagescrap {
-    Scanner siteHtml;
+    public static Scanner siteHtml;
     String searchDeli;
     
-    // Gibt die Domain der Registernummer und Zusatznummer zurück.
-    private String getDomain(int RegNr, int zuNr) {
-        return "http://pmg.ages.at/export/PMG/PMG/web/reg/" + RegNr + "_" + zuNr + ".html";
-    }
-    
     // Startet eine Verbindung zur angegebenen Websites
-    public Pagescrap (int RegNr, int zuNr, String search) throws MalformedURLException, IOException {
+    public Pagescrap (String search) throws MalformedURLException, IOException {
         this.searchDeli = search;
-        URLConnection connection = new URL(getDomain(RegNr, zuNr)).openConnection();
-        siteHtml = new Scanner(connection.getInputStream(), "iso-8859-1");
-        siteHtml.useDelimiter("\\Z");
     }
     
     // Wird für die Registriernummern verwendet.
@@ -142,5 +134,10 @@ public class Pagescrap {
     //Gibt eine ArrayList mit Indikatoren zurück.
     public ArrayList getAllIndis() {
         return getAllIndikation(siteHtml);
+    }
+    
+    // Gibt die Domain der Registernummer und Zusatznummer zurück.
+    public static String getDomain(int RegNr, int zuNr) {
+        return "http://pmg.ages.at/export/PMG/PMG/web/reg/" + RegNr + "_" + zuNr + ".html";
     }
 }

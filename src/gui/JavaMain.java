@@ -4,6 +4,7 @@ public class JavaMain {
 
     /*
         Main for starting RA-Reader with Parameters.
+        Can be started via Console.
     */
     public static void main(String[] args) {
         try {

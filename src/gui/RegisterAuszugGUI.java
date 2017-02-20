@@ -23,14 +23,14 @@ public class RegisterAuszugGUI extends javax.swing.JFrame {
     
     public RegisterAuszugGUI(int regNr, int zuNr){
         try {
-            initComponents();
             this.regNr = regNr;
             this.zuNr = zuNr;
             it = new InfoTable(regNr, zuNr);
             tb_info.setModel(it);
+            initComponents();
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Error: ZuNr");
-            JOptionPane.showMessageDialog(null, "Error: GuNrs");
+            JOptionPane.showMessageDialog(null, "Error: ZuNr oder RegNr falsch.");
+            System.exit(1);
         }
     }
     

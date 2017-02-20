@@ -15,6 +15,8 @@ public class JavaMain {
                 int regNr = Integer.parseInt(args[0]);
                 int zuNr = Integer.parseInt(args[1]);
                 RegisterAuszugGUI rag = new RegisterAuszugGUI(regNr, zuNr);
+                rag.setTitle("Artikel " + regNr + ":" + zuNr);
+                rag.setVisible(true);
             }
         } catch (Exception e) {
             System.out.println("Fehler bei der Übergabe der Parameter.");

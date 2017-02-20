@@ -2,6 +2,9 @@ package gui;
 
 public class JavaMain {
 
+    /*
+        Main for starting RA-Reader with Parameters.
+    */
     public static void main(String[] args) {
         try {
             if (args.length != 2) {
